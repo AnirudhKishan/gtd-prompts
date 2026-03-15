@@ -65,7 +65,9 @@ distance judgment.
 
 ## 3. Local Decisions During Review
 
-Each step asks one simple question. Do not compare across lists.
+Each step asks one simple question. Do not compare across lists —
+except in Step 4, where starred items may be weighed against Active
+Projects for swaps.
 
 ------------------------------------------------------------------------
 
@@ -147,15 +149,24 @@ If nothing jumps out, move on.
 
 ## Step 4 --- Activate? (skippable)
 
-Only if you starred something in Step 3 **and** there is room in Active
-(< 10):
+Only if you starred something in Step 3.
 
-> "Do I want to commit to this right now?"
-
-Yes → move to Active Projects\
-Not sure → leave it in Maybe. It will be there next week.
+For each starred item, ask: **"Do I want to commit to this right now?"**
 
 Activation should feel like **"finally"** not "maybe."
+Not sure → leave it in Maybe. It will be there next week.
+
+**If Active has room (< 10):** move the item to Active Projects.
+
+**If Active is full (= 10):** ask: "Is there anything in Active that
+this should replace?" If yes, swap — move the old project to Maybe and
+the starred item to Active. If nothing deserves to give way, leave the
+starred item in Maybe. This is the one moment in the review where
+comparing across lists is appropriate.
+
+After activation decisions, **clear the stars/flags** on any items
+staying in Maybe. Stars are temporary markers for this step only —
+they should not carry over to next week.
 
 ------------------------------------------------------------------------
 
