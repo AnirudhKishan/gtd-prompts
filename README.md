@@ -1,6 +1,6 @@
 # GTD Copilot Workspace
 
-Personal GTD workflow powered by GitHub Copilot prompts in VS Code. Clarify inbox items, organize them into lists, and run reviews — all through chat.
+Personal GTD system definition and coaching agents, powered by GitHub Copilot in VS Code.
 
 ## Setup
 
@@ -15,40 +15,33 @@ Personal GTD workflow powered by GitHub Copilot prompts in VS Code. Clarify inbo
 | **Work** | Microsoft To Do | Teams, Outlook |
 | **Personal** | TickTick | WhatsApp, Gmail |
 
-Each workstream has its own full set of GTD lists. Prompts ask which workstream you're working in (or infer from context).
+Lists (In, Active Projects, Maybe, Cold Storage) live in the task apps above — not in this repo.
 
-## Prompts
+## Agents
 
-Type `/` in Copilot Chat to access these:
+Select from the agent picker in Copilot Chat:
 
-| Prompt | When to use |
-|--------|-------------|
-| `/clarify` | Process one inbox item into an actionable task |
-| `/organize` | Route clarified items to the right lists, enforce caps |
-| `/review` | Daily scan or full weekly review |
+| Agent | What it does |
+|-------|--------------|
+| **GTD Review Buddy** | Walks you through the GTDv2 weekly review, one step at a time. Conversational coach — no task pasting required. |
 
-### Typical flow
+## Docs
 
-1. **Clarify** — Run `/clarify` for each item in your inbox. One at a time.
-2. **Organize** — Run `/organize` with your clarified items + current Active Projects list.
-3. **Review** — Run `/review` for a daily check-in or full weekly review.
+The GTD system definition lives in `docs/`:
 
-## Sync
-
-This is a git repo. To stay in sync across machines:
-
-- `git pull` before starting a GTD session
-- `git commit` + `git push` after making changes to prompts or principles
+| Document | Purpose |
+|----------|---------|
+| GTDv2 - Philosophies, Rationales and Principles | Core philosophy, principles, and design axioms |
+| GTDv2 - Weekly Review Process | Lists, review steps, WIP limits, exit ramps |
 
 ## File structure
 
 ```
 .github/
-  instructions/
-    gtd-principles.instructions.md   # Your GTD system definition (read by Copilot)
-  prompts/
-    clarify.prompt.md                 # /clarify
-    organize.prompt.md                # /organize
-    review.prompt.md                  # /review
-README.md                            # This file (read by you)
+  agents/
+    gtd-review.agent.md              # GTD Review Buddy (weekly review coach)
+docs/
+  GTDv2 - Philosophies, ...md        # System principles
+  GTDv2 - Weekly Review Process.md   # Review process definition
+README.md                            # This file
 ```
