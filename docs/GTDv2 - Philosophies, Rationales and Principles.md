@@ -67,19 +67,22 @@ Readiness is expensive and must be deliberate.
 
 ---
 
-### 5. Active Projects Are a Capacity-Bound Set
+### 5. Active Projects Are What I Am Driving This Cycle
 
 “Active” means:
 
-> “I am willing to carry this mentally right now.”
+> “I am choosing to drive this this cycle.”
 
 It does **not** mean:
 
+* everything I am accountable for
 * urgent
 * progressing
 * must be worked on daily
 
-Active projects are explicitly WIP-limited.
+Projects I am carrying but not driving this cycle live elsewhere — in **Overflow** (wants Active, blocked by the cap), **Waiting-For** (blocked on external input), or **Maybe** (not on radar this cycle).
+
+Active projects are explicitly WIP-limited (≤ 5).
 
 ---
 
@@ -124,6 +127,24 @@ Reducing the active surface area matters more than refining it.
 Pruning precedes planning.
 
 A smaller trusted list beats a perfect large one.
+
+---
+
+### 9b. Capacity and Appetite Are Separate Axes
+
+Two distinct questions govern where a project lives:
+
+* **Appetite** — “Do I want to drive this this cycle?”
+* **Capacity** — “Is there a slot in Active?”
+
+Conflating them is what causes Active to drift into a wishlist.
+
+* Appetite + capacity → **Active Projects**
+* Appetite, no capacity → **Overflow**
+* No appetite this cycle → **Maybe**
+* Blocked on external → **Waiting-For**
+
+Overflow exists precisely because appetite can legitimately exceed capacity. Denying that forces honest accountability into Maybe, where it doesn't belong.
 
 ---
 
@@ -188,8 +209,10 @@ Items that are not part of an **Active Project** must remain without next action
 
 A project becomes eligible for next actions **only when**:
 
-* it is intentionally placed in **Active Projects** (WIP-limited)
+* it is intentionally placed in **Active Projects** (WIP-limited, ≤ 5)
 * you are in a review or execution context
+
+Activation typically pulls from **Overflow** (the queue of projects that already want Active and are blocked only by the cap). Occasionally a starred **Maybe** item may activate directly.
 
 At that point, create:
 

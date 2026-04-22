@@ -15,7 +15,7 @@ Personal GTD system definition and coaching agents, powered by GitHub Copilot in
 | **Work** | Microsoft To Do | Teams, Outlook |
 | **Personal** | TickTick | WhatsApp, Gmail |
 
-Lists (In, Active Projects, Maybe, Cold Storage) live in the task apps above — not in this repo.
+Lists (In, Overflow, Active Projects, Waiting-For, Maybe, Cold Storage) live in the task apps above — not in this repo.
 
 ## Agents
 
@@ -33,6 +33,7 @@ The GTD system definition lives in `docs/`:
 |----------|---------|
 | GTDv2 - Philosophies, Rationales and Principles | Core philosophy, principles, and design axioms |
 | GTDv2 - Weekly Review Process | Lists, review steps, WIP limits, exit ramps |
+| GTDv2 - Design Decisions | Decision log: why the system is shaped the way it is (alternatives considered, rationales) |
 
 ## File structure
 
@@ -43,5 +44,6 @@ The GTD system definition lives in `docs/`:
 docs/
   GTDv2 - Philosophies, ...md        # System principles
   GTDv2 - Weekly Review Process.md   # Review process definition
+  GTDv2 - Design Decisions.md        # Decision log / rationale
 README.md                            # This file
 ```
