@@ -27,13 +27,15 @@ Select from the agent picker in Copilot Chat:
 
 ## Docs
 
-The GTD system definition lives in `docs/`:
+The GTD system definition lives in my Obsidian vault (single source of truth), under `50 Systems/Task Management/`:
 
-| Document | Purpose |
+| Note | Purpose |
 |----------|---------|
-| GTDv2 - Philosophies, Rationales and Principles | Core philosophy, principles, and design axioms |
-| GTDv2 - Weekly Review Process | Lists, review steps, WIP limits, exit ramps |
-| GTDv2 - Design Decisions | Decision log: why the system is shaped the way it is (alternatives considered, rationales) |
+| GTD System | Overview and index |
+| GTD Principles | Core philosophy, principles, and design axioms |
+| GTD Weekly Review | Lists, review steps, WIP limits, exit ramps |
+| GTD Design Decisions | Decision log: why the system is shaped the way it is (alternatives considered, rationales) |
+| GTD Backlog | Open improvements to the system |
 
 ## File structure
 
@@ -41,9 +43,7 @@ The GTD system definition lives in `docs/`:
 .github/
   agents/
     gtd-review.agent.md              # GTD Review Buddy (weekly review coach)
-docs/
-  GTDv2 - Philosophies, ...md        # System principles
-  GTDv2 - Weekly Review Process.md   # Review process definition
-  GTDv2 - Design Decisions.md        # Decision log / rationale
 README.md                            # This file
 ```
+
+The system definition now lives in the Obsidian vault under `50 Systems/Task Management/`.
